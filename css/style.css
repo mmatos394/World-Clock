@@ -1,6 +1,65 @@
+body {
+  background: #d5def5;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.container {
+  line-height: 60px;
+  background: radial-gradient(
+    939px at 0.7% 2.4%,
+    rgb(116, 106, 255) 0%,
+    rgb(221, 221, 221) 100.2%
+  );
+  max-width: 390px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
+}
+
 h1 {
   text-align: center;
+  font-size: 36px;
+  font-weight: 500;
+  color: white;
 }
+
+select {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.city {
+  display: flex;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  justify-content: space-between;
+}
+
+h2 {
+  margin: 0;
+}
+
+.date {
+  margin: 0;
+  display: flex;
+  line-height: 0%;
+  font-weight: 300;
+  opacity: 0.7;
+  font-size: small;
+}
+
+.time {
+  font-size: 36px;
+  vertical-align: middle;
+}
+
 footer {
   text-align: center;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.7);
 }
